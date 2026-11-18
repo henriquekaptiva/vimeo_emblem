@@ -1,0 +1,35 @@
+/**
+ * Styles for the Vimeo video badge block.
+ *
+ * @package   block_vimeo_emblem
+ * @copyright 2026 Henrique
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+.block_vimeo_emblem .vimeo-emblema-container {
+    width: 100%;
+}
+
+.block_vimeo_emblem .vimeo-emblema-status {
+    margin-top: 0.75rem;
+}
+
+.block_vimeo_emblem .vimeo-emblema-bar {
+    height: 8px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.block_vimeo_emblem .vimeo-emblema-bar span {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: #0f6cbf;
+    transition: width 0.3s ease;
+}
+
+.block_vimeo_emblem .vimeo-emblema-label {
+    margin: 0.4rem 0 0;
+    font-size: 0.875rem;
+}
